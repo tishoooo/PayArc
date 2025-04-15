@@ -18,7 +18,8 @@ playwright-ui-tests/
 ├── mobile-tests/     → Mobile Automation Strategy with Appium
 │   └── README.md     → Theoretical design for React Native test suite
 │
-├── load-tests/       → (Coming soon) Performance testing with k6
+├── load-tests/       → Performance testing with k6 (API load simulation)
+│   └── README.md     → k6 script and setup instructions
 │
 └── README.md         → This file
 ```
@@ -31,7 +32,7 @@ playwright-ui-tests/
   - ✅ Login flow
   - 💸 Transaction creation
   - 🕓 Transaction history
-  - 🔄 UI + API consistency (intercepted responses)
+  - 🔄 UI + API consistency
 - Organized using Page Object Model
 - Easily extendable and scalable
 
@@ -57,18 +58,21 @@ playwright-ui-tests/
 
 ---
 
-## ⚡ Performance Testing *(Coming soon)*
+## ⚡ Performance Testing (k6)
 
-- Simulate concurrent users with `k6`
-- Detect backend and frontend performance bottlenecks
+- Simulates concurrent users performing transactions
+- Validates backend/API response times under load
+- Helps identify performance regressions and bottlenecks
+
+📄 Details: [`load-tests/README.md`](load-tests/README.md)
 
 ---
 
 ## ✅ Highlights
 
 - 🔹 Cross-platform test design
-- 🔹 Clean code structure
-- 🔹 Scalable and CI/CD friendly
-- 🔹 API-aware test validation
+- 🔹 Clean, scalable code structure
+- 🔹 API-aware and performance-driven
+- 🔹 CI/CD-ready layout
 
-This setup demonstrates not just automation, but a complete testing mindset.
+This setup demonstrates not just automation, but a complete QA mindset.
