@@ -14,9 +14,13 @@ npx playwright show-report
 
 ## Project Structure
 tests/ – test scenarios
+
 pages/ – page objects
+
 utils/ – API interception or other helper functions
+
 fixtures/ – test data
+
 playwright.config.js – Playwright configuration
 
 ## Advantages
