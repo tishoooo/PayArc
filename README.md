@@ -1,3 +1,0 @@
-# 🔄 End-to-End Automation Project
-
-... (same as previous root readme) ...
