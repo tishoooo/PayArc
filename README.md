@@ -1,28 +1,24 @@
 # End-to-End UI Automation Template with Playwright (JavaScript)
 
-## Инсталация
-```bash
+## Installation
+
 npm install
-```
 
-## Стартиране на тестовете
-```bash
+## Running the Tests
+
 npx playwright test
-```
 
-## Генериране на репорт
-```bash
+## Generating the Report
+
 npx playwright show-report
-```
 
-## 📂 Структура на проекта
-- `tests/` – тестови сценарии
-- `pages/` – page objects
-- `utils/` – API interception или други помощни функции
-- `fixtures/` – тестови данни
-- `playwright.config.js` – конфигурация
+## Project Structure
+tests/ – test scenarios
+pages/ – page objects
+utils/ – API interception or other helper functions
+fixtures/ – test data
+playwright.config.js – Playwright configuration
 
-## Предимства
-- Скалируемост
-- Лесно поддържане
-
+## Advantages
+Scalability
+Easy maintenance
