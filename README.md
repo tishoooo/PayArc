@@ -25,4 +25,5 @@ playwright.config.js – Playwright configuration
 
 ## Advantages
 Scalability
+
 Easy maintenance
