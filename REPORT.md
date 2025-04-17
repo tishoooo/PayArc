@@ -1,4 +1,4 @@
-# 🧪 QA Test Execution Report
+#  QA Test Execution Report
 
 Project: End-to-End Automation for React Web & React Native App  
 Date: April 2025  
@@ -6,7 +6,7 @@ Tester: Tihomir Nenov
 
 ---
 
-## ✅ Test Executions Summary
+##  Test Executions Summary
 
 | Test Scenario                          | Environment | Status   | Notes |
 |----------------------------------------|-------------|----------|-------|
@@ -21,7 +21,7 @@ Tester: Tihomir Nenov
 
 ---
 
-## 🐞 Issues Found
+##  Issues Found
 
 1. **Transaction appears late in history (UI delay):**
    - On slower API response (~1s+), transaction doesn't show immediately.
@@ -36,7 +36,7 @@ Tester: Tihomir Nenov
 
 ---
 
-## 📊 Test Evidence
+##  Test Evidence
 
 - Screenshots from Playwright (optional)
 - k6 output:
@@ -47,7 +47,7 @@ Tester: Tihomir Nenov
 
 ---
 
-## 🛠 Recommendations
+##  Recommendations
 
 - Add loading indicator and refresh polling for transaction history page.
 - Implement automatic retry for failed POST /transactions.
@@ -57,7 +57,7 @@ Tester: Tihomir Nenov
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 The test suite successfully covers all critical web scenarios and validates the UI ↔ API sync. Load testing and error simulation exposed important areas for improvement, notably with transaction visibility and backend response stability. A retry strategy and mobile test execution are recommended next steps.
 

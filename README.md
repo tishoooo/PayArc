@@ -1,10 +1,10 @@
-# 🔄 End-to-End Automation Project
+#  End-to-End Automation Project
 
 This repository showcases a complete test automation approach for a React-based web dashboard and a React Native mobile app used for financial transaction management.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 playwright-ui-tests/
@@ -26,31 +26,31 @@ playwright-ui-tests/
 
 ---
 
-## 🌐 Web UI Automation (Playwright)
+##  Web UI Automation (Playwright)
 
 - Covers:
-  - ✅ Login flow
-  - 💸 Transaction creation
-  - 🕓 Transaction history
-  - 🔄 UI + API consistency
+  -  Login flow
+  -  Transaction creation
+  -  Transaction history
+  -  UI + API consistency
 - Organized using Page Object Model
 - Easily extendable and scalable
 
-📄 Details: [`web-tests/README.md`](web-tests/README.md)
+ Details: [`web-tests/README.md`](web-tests/README.md)
 
 ---
 
-## 📱 Mobile Automation Strategy (Appium)
+##  Mobile Automation Strategy (Appium)
 
 - Focused on React Native apps
 - Describes test flows, toolchain, and best practices
 - Sample pseudocode provided using WebDriverIO
 
-📄 Details: [`mobile-tests/README.md`](mobile-tests/README.md)
+ Details: [`mobile-tests/README.md`](mobile-tests/README.md)
 
 ---
 
-## 🔄 API Validation
+##  API Validation
 
 - Playwright’s `waitForResponse` is used to validate API response data
 - Ensures UI reflects accurate transaction status and values
@@ -58,21 +58,21 @@ playwright-ui-tests/
 
 ---
 
-## ⚡ Performance Testing (k6)
+##  Performance Testing (k6)
 
 - Simulates concurrent users performing transactions
 - Validates backend/API response times under load
 - Helps identify performance regressions and bottlenecks
 
-📄 Details: [`load-tests/README.md`](load-tests/README.md)
+ Details: [`load-tests/README.md`](load-tests/README.md)
 
 ---
 
-## ✅ Highlights
+##  Highlights
 
-- 🔹 Cross-platform test design
-- 🔹 Clean, scalable code structure
-- 🔹 API-aware and performance-driven
-- 🔹 CI/CD-ready layout
+-  Cross-platform test design
+-  Clean, scalable code structure
+-  API-aware and performance-driven
+-  CI/CD-ready layout
 
 This setup demonstrates not just automation, but a complete QA mindset.

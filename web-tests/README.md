@@ -22,7 +22,7 @@ Easy maintenance
 Covers login, transaction creation, and history validation flows
 ---
 
-## 🔁 Retry Mechanism (API Failover Simulation)
+##  Retry Mechanism (API Failover Simulation)
 
 To simulate an API retry scenario, we intercept the first transaction request and force it to fail with a 500 status. On the next attempt, we allow it to proceed successfully.
 
